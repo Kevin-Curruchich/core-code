@@ -98,12 +98,153 @@ function finalGrade (exam, projects) {
 
 ## Wednesday
 
+**1. The purpose of this kata is to work out just how many bottles of duty free whiskey you would have to buy such that the saving over the normal high street price would effectively cover the cost of your holiday.**
+
+**You will be given the high street price (normPrice), the duty free discount (discount) and the cost of the holiday.**
+
+**For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.**
+
+**All inputs will be integers. Please return an integer. Round down.**
+    
+```javascript
+function dutyFree(normPrice, discount, hol){
+  let discountForUnity = normPrice * (discount * 0.01);
+  return Math.trunc(hol/discountForUnity); 
+}
+```
+
+**2. Your function takes two arguments:**
+
+- current father's age (years)
+- current age of his son (years)
+
+**Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).**
+    
+```javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld-(sonYearsOld*2));
+}
+```
+
+**3. Your task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either True or False.**
+
+**For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces.**
+    
+```javascript
+function validSpacing(s) {
+  let valid = true;
+  if(s[0] == ' ' || s[s.length-1] == ' '){
+    valid = false;
+  }
+  let counter = 0;
+  let stringArray = Array.from(s)
+  for(let i = 0, length = stringArray.length; i<length; i++){
+    if(stringArray[i] == ' ' && stringArray[i+1] == ' '){
+      valid = false;
+    }
+  }
+  return valid;
+}
+```
+
+**4. Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.**
+    
+```javascript
+function fakeBin(x){
+  let result = Array.from(x).map(function(num){
+        let binary;
+        if(num < 5){
+            binary = 0
+        }else {
+            binary = 1;
+        }
+        return binary;
+    })
+    return result.join('');
+}
+```
 
 <br>
 <hr>
 <br>
 
 ## Thursday
+
+**1. Remove all exclamation marks from the end of sentence.**
+
+```javascript
+function remove (string) {  
+  let array = Array.from(string);
+  let stop = false;
+  let position = array.length-1;
+  
+  while(stop == false){
+    if(array[position] == '!'){
+      array.pop();
+    }else{
+      stop = true;
+    }
+    position--;
+  }
+
+  return array.join('');
+}
+```
+
+**2. Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.**
+
+```javascript
+function shortcut (string) {
+  let stringWithoutVowels = string.replace(/[aeiou]/g, '');
+  return stringWithoutVowels;
+}
+```
+
+**3. Let's play! You have to return which player won! In case of a draw return Draw!.**
+
+```javascript
+const rps = (p1, p2) => {
+  const options = ['scissors', 'paper', 'rock'];
+  let player1 = options.indexOf(p1);
+  let player2 = options.indexOf(p2);
+  let result;
+    if(player1 == player2) return 'Draw!';
+    if(player1 == 0 && player2 == 1) result = 1;
+    if(player1 == 0 && player2 == 2) result = 2;
+    if(player1 == 2 && player2 == 0) result = 1;
+    if(player1 == 2 && player2 == 1) result = 2;
+    if(player1 == 1 && player2 == 0) result = 2;
+    if(player1 == 1 && player2 == 2) result = 1;
+  return `Player ${result} won!`;
+};
+```
+
+**4. Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.**
+```
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+4 --> 0 (because 4 is already a one-digit number)
+```
+**Solution**
+
+```javascript
+function persistence(num) {
+  let number = num.toString();
+  let counter = 0;
+  let array = Array.from(number);
+  
+  while(array.length > 1){
+    number = array[0];
+    for(let i = 1; i<array.length; i++){
+      number *= array[i];
+    }
+    counter++;
+    array = Array.from(number.toString())
+  }
+  
+  return counter;
+}
+```
 
 
 <br>
