@@ -33,7 +33,7 @@ Es por eso que debemos conocer como funcionan los operadores aritmeticos, operad
     
 ```javascript
 function multiply(a, b){
-return a * b
+  return a * b
 }
 ```
 **2. You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.**
@@ -41,9 +41,11 @@ return a * b
 ```javascript
 function uniTotal (string) {
   let result = 0;
+
   Array.from(string).forEach(function(c){
     result+=c.charCodeAt(0);
   });
+
   return result;
 }
 ```
@@ -61,6 +63,7 @@ function getChar(c){
 ```javascript
 function addBinary(a,b) {
   let sum = a+b;
+
   return sum.toString(2);
 }
 ```
@@ -79,14 +82,14 @@ function finalGrade (exam, projects) {
      if(exam == 0){
          if(projects > 10){
              finalGrade = 100;
-         }
-     }else if(exam > 90 || projects > 10 ){
-         finalGrade = 100;
-     }else if(exam > 75 && projects >= 5){
-         finalGrade = 90;
-     }else if(exam > 50 && projects >= 2){
-         finalGrade = 75;
-     }
+      }
+      }else if(exam > 90 || projects > 10 ){
+          finalGrade = 100;
+      }else if(exam > 75 && projects >= 5){
+          finalGrade = 90;
+      }else if(exam > 50 && projects >= 2){
+          finalGrade = 75;
+      }
 
     return finalGrade;
 }
@@ -108,7 +111,9 @@ function finalGrade (exam, projects) {
     
 ```javascript
 function dutyFree(normPrice, discount, hol){
+
   let discountForUnity = normPrice * (discount * 0.01);
+
   return Math.trunc(hol/discountForUnity); 
 }
 ```
@@ -133,16 +138,20 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 ```javascript
 function validSpacing(s) {
   let valid = true;
+
   if(s[0] == ' ' || s[s.length-1] == ' '){
     valid = false;
   }
+
   let counter = 0;
   let stringArray = Array.from(s)
+
   for(let i = 0, length = stringArray.length; i<length; i++){
     if(stringArray[i] == ' ' && stringArray[i+1] == ' '){
       valid = false;
     }
   }
+
   return valid;
 }
 ```
@@ -174,6 +183,7 @@ function fakeBin(x){
 
 ```javascript
 function remove (string) {  
+
   let array = Array.from(string);
   let stop = false;
   let position = array.length-1;
@@ -196,6 +206,7 @@ function remove (string) {
 ```javascript
 function shortcut (string) {
   let stringWithoutVowels = string.replace(/[aeiou]/g, '');
+  
   return stringWithoutVowels;
 }
 ```
