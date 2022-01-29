@@ -21,7 +21,7 @@
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function likes(names) {
@@ -44,9 +44,16 @@ function likes(names) {
 }
 ```
 
+<hr>
+<br>
+
 **2. Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.**
 
 **Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case**
+
+<br>
+
+**Solution :**
 
 ```javascript
 var countBits = function(n) {
@@ -61,9 +68,16 @@ var countBits = function(n) {
 
 ```
 
+<hr>
+<br>
+
 **3. In this kata you have to write a simple Morse code decoder. While the Morse code is now mostly superseded by voice and digital data communication channels, it still has its use in some applications around the world.**
 
 **The Morse code encodes every character as a sequence of "dots" and "dashes". For example, the letter A is coded as ·−, letter Q is coded as −−·−, and digit 1 is coded as ·−−−−. The Morse code is case-insensitive, traditionally capital letters are used. When the message is written in Morse code, a single space is used to separate the character codes and 3 spaces are used to separate words. For example, the message HEY JUDE in Morse code is** `···· · −·−− ·−−− ··− −·· ·.`
+
+<br>
+
+**Solution :**
 
 ```javascript
 decodeMorse = function (morseCode) {
@@ -101,7 +115,7 @@ decodeMorse = function (morseCode) {
 
 **If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.**
 
-**Example**
+**Examples:**
 
 ```
 "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
@@ -109,7 +123,7 @@ decodeMorse = function (morseCode) {
 ""  -->  ""
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function order(words) {
@@ -125,11 +139,14 @@ function order(words) {
 }
 ```
 
+<hr>
+<br>
+
 **2. Count the number of Duplicates, write a function that will return the count of distinct case-insensitive alphabetic characters and numeric digits that occur more than once in the input string**
 
 **The input string can be assumed to contain only alphabets (both uppercase and lowercase) and numeric digits.**
 
-**Example**
+**Examples:**
 
 ```
 "abcde" -> 0 # no characters repeats more than once
@@ -141,7 +158,7 @@ function order(words) {
 "ABBA" -> 2 # 'A' and 'B' each occur twice
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function duplicateCount(text) {
@@ -165,16 +182,19 @@ function duplicateCount(text) {
 }
 ```
 
+<hr>
+<br>
+
 **3. Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.**
 
-**Exampels**
+**Exampels:**
 
 ```
 pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
 pigIt('Hello world !');     // elloHay orldway !
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function pigIt(str) {
@@ -201,7 +221,7 @@ function pigIt(str) {
 
 **1. Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. The function should return true if the string is valid, and false if it's invalid.**
 
-**Examples**
+**Examples:**
 
 ```
 "()"              =>  true
@@ -210,7 +230,7 @@ function pigIt(str) {
 "(())((()())())"  =>  true
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function validParentheses(parens) {
@@ -233,16 +253,19 @@ function validParentheses(parens) {
 }
 ```
 
+<hr>
+<br>
+
 **2. Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case).**
 
-**Examples**
+**Examples:**
 
 ```
 "the-stealth-warrior" gets converted to "theStealthWarrior"
 "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 function toCamelCase(str) {
@@ -260,9 +283,12 @@ function toCamelCase(str) {
 }
 ```
 
+<hr>
+<br>
+
 **3. Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.**
 
-**Examples**
+**Examples:**
 
 ```
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
@@ -270,7 +296,7 @@ uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
 uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 ```
 
-**Solution**
+**Solution:**
 
 ```javascript
 var uniqueInOrder = function (iterable) {
@@ -292,6 +318,130 @@ var uniqueInOrder = function (iterable) {
 <br>
 
 ## Thursday
+
+**1. In this kata you have to write a method that folds a given array of integers by the middle x-times.**
+
+**Example:**
+
+```
+Fold 1-times:
+[1,2,3,4,5] -> [6,6,3]
+
+A little visualization (NOT for the algorithm but for the idea of folding):
+
+ Step 1         Step 2        Step 3       Step 4       Step5
+                     5/           5|         5\
+                    4/            4|          4\
+1 2 3 4 5      1 2 3/         1 2 3|       1 2 3\       6 6 3
+----*----      ----*          ----*        ----*        ----*
+
+Fold 2-times:
+[1,2,3,4,5] -> [9,6]
+```
+
+<br>
+
+**Solution:**
+
+```javascript
+function foldArray(array, runs) {
+  let counterRuns = 0;
+  let arrayPrimary = [...array];
+  let result = [];
+  while (counterRuns != runs) {
+    result = arrayPrimary.map((value, index, arr) => {
+      if (index != arr.length - 1) {
+        value += arr[arr.length - 1];
+      }
+      arr.pop();
+      return value;
+    });
+    arrayPrimary = result.filter((num) => num != undefined);
+    counterRuns++;
+  }
+  return result.filter((num) => num != undefined);
+}
+```
+
+<hr>
+<br>
+
+**2. Encrypt this!**
+
+**You want to create secret messages which can be deciphered by the Decipher this! kata. Here are the conditions:**
+
+**2.1 Your message is a string containing space separated words.**
+
+**2.2 You need to encrypt each word in the message using the following rules:**
+
+**2.3 The first letter must be converted to its ASCII code.**
+
+**2.4 The second letter must be switched with the last letter**
+
+**2.5 Keepin' it simple: There are no special characters in the input.**
+
+**Example:**
+
+```
+encryptThis("Hello") === "72olle"
+encryptThis("good") === "103doo"
+encryptThis("hello world") === "104olle 119drlo"
+```
+
+<br>
+
+**Solution:**
+
+```javascript
+var encryptThis = function (text) {
+  return text
+    .split(" ")
+    .reduce((pre, curr) => {
+      let letra = curr[1];
+      let letra2 = curr[curr.length - 1];
+      console.log(letra);
+      let regex = new RegExp(`(${letra})\\D*(${letra2})`);
+      console.log(regex);
+      return `${pre} ${curr[0].charCodeAt(0)}${curr
+        .slice(1)
+        .replace(regex, `$2${curr.slice(2, curr.length - 1)}$1`)}`;
+    }, "")
+    .trim();
+};
+```
+
+<hr>
+
+**3. Return: a string formatted as a list of names separated by commas except for the last two names, which should be separated by an ampersand.**
+
+**Examples :**
+
+```
+list([ {name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'} ])
+// returns 'Bart, Lisa & Maggie'
+
+list([ {name: 'Bart'}, {name: 'Lisa'} ])
+// returns 'Bart & Lisa'
+
+list([ {name: 'Bart'} ])
+// returns 'Bart'
+
+list([])
+// returns ''
+```
+
+**Solution :**
+
+```javascript
+function list(names) {
+  return names
+    .reduce((prev, curr, index, array) => {
+      return `${prev}${index != array.length - 1 ? ", " : " & "}${curr.name}`;
+    }, "")
+    .trim()
+    .slice(2);
+}
+```
 
 <br>
 <hr>
