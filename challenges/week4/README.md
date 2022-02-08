@@ -478,18 +478,16 @@ function revrot(str, sz) {
 
 <hr>
 
-**5. **
-
-**Example**
-
-```
-
-```
+**5. You receive an array of integers (0 to 9), each of them is the number of a rat which died after tasting the wine bottles. Return the number of the bottle (1..1000) which is poisoned.**
 
 **Solution**
 
 ```javascript
-
+function find(rats) {
+  let bottle = 0;
+  rats.forEach((value) => (bottle += Math.pow(2, value)));
+  return bottle;
+}
 ```
 
 <br>
