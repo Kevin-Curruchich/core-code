@@ -1,4 +1,4 @@
-# Index
+# Index Week 2
 
 - [Monday](#monday)
 - [Tuesday](#tuesday)
@@ -26,7 +26,9 @@
 **4. Create an account in Codewars**
 
 - [Perfil](https://www.codewars.com/users/Kevin-Curruchich)
+
 <br>
+<hr>
 <hr>
 <br>
 
@@ -115,6 +117,7 @@ function finalGrade(exam, projects) {
 
 <br>
 <hr>
+<hr>
 <br>
 
 ## Wednesday
@@ -200,6 +203,7 @@ function fakeBin(x) {
 ```
 
 <br>
+<hr>
 <hr>
 <br>
 

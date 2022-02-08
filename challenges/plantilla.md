@@ -1,4 +1,5 @@
- # Index
+# Index Week
+
 - [Monday](#monday)
 - [Tuesday](#tuesday)
 - [Wednesday](#wednesday)
@@ -8,6 +9,19 @@
 
 ## Monday
 
+**1. **
+
+**Examples**
+
+```
+
+```
+
+**Solution**
+
+```
+
+```
 
 <br>
 <hr>
@@ -15,20 +29,17 @@
 
 ## Tuesday
 
-
 <br>
 <hr>
 <br>
 
 ## Wednesday
 
-
 <br>
 <hr>
 <br>
 
 ## Thursday
-
 
 <br>
 <hr>

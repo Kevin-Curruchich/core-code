@@ -1,4 +1,4 @@
-# Index
+# Index Week 3
 
 - [Monday](#monday)
 - [Tuesday](#tuesday)
@@ -104,6 +104,7 @@ decodeMorse = function (morseCode) {
 ```
 
 <br>
+<hr>
 <hr>
 <br>
 
@@ -215,6 +216,7 @@ function pigIt(str) {
 
 <br>
 <hr>
+<hr>
 <br>
 
 ## Wednesday
@@ -314,6 +316,7 @@ var uniqueInOrder = function (iterable) {
 ```
 
 <br>
+<hr>
 <hr>
 <br>
 
