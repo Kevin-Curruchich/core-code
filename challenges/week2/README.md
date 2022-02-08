@@ -38,6 +38,8 @@
 
 **1. This code does not execute properly. Try to figure out why.**
 
+**Solution:**
+
 ```javascript
 function multiply(a, b) {
   return a * b;
@@ -47,7 +49,9 @@ function multiply(a, b) {
 <hr>
 <br>
 
-**2. You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.**
+2. You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+
+**Solution:**
 
 ```javascript
 function uniTotal(string) {
@@ -66,6 +70,8 @@ function uniTotal(string) {
 
 **3. Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.**
 
+**Solution:**
+
 ```javascript
 function getChar(c) {
   return String.fromCharCode(c);
@@ -76,6 +82,8 @@ function getChar(c) {
 <br>
 
 **4. Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition.**
+
+**Solution:**
 
 ```javascript
 function addBinary(a, b) {
@@ -94,6 +102,8 @@ function addBinary(a, b) {
 - 90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
 - 75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
   0, in other cases
+
+**Solution:**
 
 ```javascript
 function finalGrade(exam, projects) {
@@ -130,6 +140,8 @@ function finalGrade(exam, projects) {
 
 **All inputs will be integers. Please return an integer. Round down.**
 
+**Solution:**
+
 ```javascript
 function dutyFree(normPrice, discount, hol) {
   let discountForUnity = normPrice * (discount * 0.01);
@@ -148,6 +160,8 @@ function dutyFree(normPrice, discount, hol) {
 
 **Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).**
 
+**Solution:**
+
 ```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs(dadYearsOld - sonYearsOld * 2);
@@ -160,6 +174,8 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 **3. Your task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either True or False.**
 
 **For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces.**
+
+**Solution:**
 
 ```javascript
 function validSpacing(s) {
@@ -187,6 +203,8 @@ function validSpacing(s) {
 
 **4. Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.**
 
+**Solution:**
+
 ```javascript
 function fakeBin(x) {
   let result = Array.from(x).map(function (num) {
@@ -210,6 +228,8 @@ function fakeBin(x) {
 ## Thursday
 
 **1. Remove all exclamation marks from the end of sentence.**
+
+**Solution:**
 
 ```javascript
 function remove(string) {
@@ -235,6 +255,8 @@ function remove(string) {
 
 **2. Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.**
 
+**Solution:**
+
 ```javascript
 function shortcut(string) {
   let stringWithoutVowels = string.replace(/[aeiou]/g, "");
@@ -247,6 +269,8 @@ function shortcut(string) {
 <br>
 
 **3. Let's play! You have to return which player won! In case of a draw return Draw!.**
+
+**Solution:**
 
 ```javascript
 const rps = (p1, p2) => {

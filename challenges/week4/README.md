@@ -9,19 +9,19 @@
 
 ## Monday
 
-1. Check [this](https://www.youtube.com/watch?v=sXQxhojSdZM) video
+**1. Check [this](https://www.youtube.com/watch?v=sXQxhojSdZM) video**
 
-   - Las expresiones regulares nos ayudan a buscar un patrón dentro de una cadena de caracteres, esto es útil para validar, reemplazar y algunas otras opciones que tenemos al utilizar expresiones regulares
-
-<hr>
-
-2. Follow [this](https://www.youtube.com/watch?v=909NfO1St0A) video
-
-   - Las expresiones regulares pueden ser simples o bastante complejas como nosotros lo necesitemos, podemos estar buscando una palabra en concreto dentro de la cadena de caracteres, podríamos estar buscando una carácter al inicio o final, super útiles para recoger los dígitos de una fecha ingresada, otra opción puede ser extraer el correo electrónico del usuario y muchas más utilidades
+- Las expresiones regulares nos ayudan a buscar un patrón dentro de una cadena de caracteres, esto es útil para validar, reemplazar y algunas otras opciones que tenemos al utilizar expresiones regulares
 
 <hr>
 
-3. Follow [this](https://dev.to/codebubb/javascript-regex-exercises-01-5078) guide
+**2. Follow [this](https://www.youtube.com/watch?v=909NfO1St0A) video**
+
+- Las expresiones regulares pueden ser simples o bastante complejas como nosotros lo necesitemos, podemos estar buscando una palabra en concreto dentro de la cadena de caracteres, podríamos estar buscando una carácter al inicio o final, super útiles para recoger los dígitos de una fecha ingresada, otra opción puede ser extraer el correo electrónico del usuario y muchas más utilidades
+
+<hr>
+
+**3. Follow [this](https://dev.to/codebubb/javascript-regex-exercises-01-5078) guide**
 
 ```
 const ex1 = 'The quick brown fox jumped over the lazy dog';
@@ -65,19 +65,19 @@ ex5.match(/\S+@\S+\.\S+/)
 
 <hr>
 
-4. Check [this](https://www.youtube.com/watch?v=RvYYCGs45L4) video
+**4. Check [this](https://www.youtube.com/watch?v=RvYYCGs45L4) video**
 
-   - Las promesas en la programación son bastante útiles cuando vamos a trabajar con asincronismo, cuando creamos promesa pueden ser resueltas y entregarnos un valor o puede ser que surja un inconveniente y este nos retorne un error
-
-<hr>
-
-5. Follow [this](https://www.youtube.com/watch?v=DHvZLI7Db8E) video
-
-   - Cuando estamos iniciando, probablemente se nos complica entender las promesas, pero podríamos simplificarlo y entenderlo de una manera fácil, asociarlo con algo de la vida real sería como cuando nosotros hacemos un pedido en una heladería, nosotros pedimos cierto helado, y quien nos está atendiendo puede darnos dos respuestas, la primera puede ser que nos entregue nuestro helado tal como lo pedimos, o nos puede decir que el sabor que le pedimos está agotado, por lo tanto no vamos a recibir nuestro pedido, en esta forma funcionan las promesas
+- Las promesas en la programación son bastante útiles cuando vamos a trabajar con asincronismo, cuando creamos promesa pueden ser resueltas y entregarnos un valor o puede ser que surja un inconveniente y este nos retorne un error
 
 <hr>
 
-6. Check [this]() video
+**5. Follow [this](https://www.youtube.com/watch?v=DHvZLI7Db8E) video**
+
+- Cuando estamos iniciando, probablemente se nos complica entender las promesas, pero podríamos simplificarlo y entenderlo de una manera fácil, asociarlo con algo de la vida real sería como cuando nosotros hacemos un pedido en una heladería, nosotros pedimos cierto helado, y quien nos está atendiendo puede darnos dos respuestas, la primera puede ser que nos entregue nuestro helado tal como lo pedimos, o nos puede decir que el sabor que le pedimos está agotado, por lo tanto no vamos a recibir nuestro pedido, en esta forma funcionan las promesas
+
+<hr>
+
+**6. Check [this]() video**
 
 <br>
 <hr>
