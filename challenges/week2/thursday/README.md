@@ -97,4 +97,4 @@ function persistence(num) {
 <br>
 <hr>
 
-**_[<-- Go Back](../../week1/)_**
+**_[<-- Go Back](../../week2/)_**
