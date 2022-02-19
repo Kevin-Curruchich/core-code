@@ -1,5 +1,7 @@
 ## Description
 
+**[My solution](./src/)**
+
 You have been hired by a brand of digital watches to be able to create the functionality of keeping track of time, for this you have been asked to do the following:
 
 1. Write a definition for the class name Time this class would be use to build a digital clock. This class should have 3 attributes of type number. hour, minute and second.

@@ -34,8 +34,6 @@
 
 ## Tuesday
 
-<p align="center">Problems and Solutions</p>
-
 **1. This code does not execute properly. Try to figure out why.**
 
 **Solution:**

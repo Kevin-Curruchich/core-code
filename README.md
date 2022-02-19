@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png">
 </div>
-<h2 align="center">Software Development from scratch 🤖</h2>
+<h1 align="center">Software Development from scratch 🤖</h1>
 
 ### My name is [Kevin](https://www.linkedin.com/in/kevin-curruchich/) and here are my bootcamp progress and solutions 👨🏻‍🚀🚀
 
