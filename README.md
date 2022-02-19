@@ -3,7 +3,9 @@
 </div>
 <h2 align="center">Software Development from scratch 🤖</h2>
 
-My name is [Kevin](https://www.linkedin.com/in/kevin-curruchich/) and here are my bootcamp progress and solutions.
+### My name is [Kevin](https://www.linkedin.com/in/kevin-curruchich/) and here are my bootcamp progress and solutions 👨🏻‍🚀🚀
+
+<hr>
 
 ## Index
 

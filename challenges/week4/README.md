@@ -493,4 +493,3 @@ function find(rats) {
 <br>
 <hr>
 <br>
-````
