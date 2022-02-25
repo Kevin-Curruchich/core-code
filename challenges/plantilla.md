@@ -1,46 +1,28 @@
-# Index Week
+<!-- Per week -->
 
-- [Monday](#monday)
-- [Tuesday](#tuesday)
-- [Wednesday](#wednesday)
-- [Thursday](#thursday)
+# Index Week 6️⃣ - Typescript
 
-<hr>
+- [Monday](./monday/)
+- [Tuesday](./tuesday/)
+- [Wednesday](./wednesday/)
+- [Thursday](./thursday/)
 
-## Monday
+<!-- Per day -->
 
-**1. **
+## Day
 
-**Examples**
+**1.**
 
-```
+**Solution:**
 
-```
-
-**Solution**
+```typescript
 
 ```
 
-```
-
-<br>
 <hr>
 <br>
 
-## Tuesday
-
 <br>
 <hr>
-<br>
 
-## Wednesday
-
-<br>
-<hr>
-<br>
-
-## Thursday
-
-<br>
-<hr>
-<br>
+**_[<-- Go Back](../../week/)_**
