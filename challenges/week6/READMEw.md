@@ -219,4 +219,4 @@ export function streetFighterSelection(
 <br>
 <hr>
 
-**_[<-- Go Back](../../week6/)_**
+**_[<-- Go Back](../week6/)_**

@@ -162,4 +162,4 @@ Hexadecimal = 7D1
 <br>
 <hr>
 
-**_[<-- Go Back](../../week1/)_**
+**_[<-- Go Back](../week1/)_**

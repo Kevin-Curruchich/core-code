@@ -183,4 +183,4 @@ function displayBoard(board, width) {
 <hr>
 <br>
 
-**_[<-- Go Back](../../week5/)_**
+**_[<-- Go Back](../week5/)_**

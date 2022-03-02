@@ -98,4 +98,4 @@ decodeMorse = function (morseCode) {
 <hr>
 <br>
 
-**_[<-- Go Back](../../week3/)_**
+**_[<-- Go Back](../week3/)_**

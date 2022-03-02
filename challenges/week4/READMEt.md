@@ -204,4 +204,4 @@ function spinWords(string) {
 <hr>
 <br>
 
-**_[<-- Go Back](../../week4/)_**
+**_[<-- Go Back](../week4/)_**

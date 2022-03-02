@@ -98,4 +98,4 @@ var uniqueInOrder = function (iterable) {
 <hr>
 <br>
 
-**_[<-- Go Back](../../week3/)_**
+**_[<-- Go Back](../week3/)_**

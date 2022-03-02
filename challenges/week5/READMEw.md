@@ -165,4 +165,4 @@ export function longestConsec(strarr: string[], k: number): string {
 <br>
 <hr>
 
-**_[<-- Go Back](../../week5/)_**
+**_[<-- Go Back](../week5/)_**

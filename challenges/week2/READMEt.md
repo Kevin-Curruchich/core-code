@@ -92,4 +92,4 @@ function finalGrade(exam, projects) {
 <br>
 <hr>
 
-**_[<-- Go Back](../../week2/)_**
+**_[<-- Go Back](../week2/)_**
