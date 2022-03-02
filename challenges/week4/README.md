@@ -1,6 +1,6 @@
 # Index Week 4
 
-- [Monday](./monday/)
-- [Tuesday](./tuesday/)
-- [Wednesday](./wednesday/)
-- [Thursday](./thursday/)
+- [Monday](./READMEm.md)
+- [Tuesday](./READMEt.md)
+- [Wednesday](./READMEw.md)
+- [Thursday](./READMEth.md)

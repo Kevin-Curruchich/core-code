@@ -2,5 +2,5 @@
 
 - [Monday](./monday/)
 - [Tuesday](./tuesday/)
-- [Wednesday](./wednesday/)
-- [Thursday](./thursday/)
+- [Wednesday](./READMEw.md)
+- [Thursday](./READMEth.md)
