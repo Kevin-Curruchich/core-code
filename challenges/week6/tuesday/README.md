@@ -23,4 +23,4 @@ Cada carro tendrá su propia definición de como implementar lo que está en el 
 <br>
 <hr>
 
-**_[<-- Go Back](../../week/)_**
+**_[<-- Go Back](../../week6/)_**

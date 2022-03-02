@@ -15,4 +15,4 @@ Es facil de implementar, ligero para su utilización intuitivo entre muchas otra
 <br>
 <hr>
 
-**_[<-- Go Back](../../week/)_**
+**_[<-- Go Back](../../week6/)_**

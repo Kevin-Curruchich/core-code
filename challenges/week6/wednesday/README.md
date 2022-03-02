@@ -1,5 +1,3 @@
-<!-- Per day -->
-
 ## Wednesday
 
 **1. Build Tower**
@@ -221,4 +219,4 @@ export function streetFighterSelection(
 <br>
 <hr>
 
-**_[<-- Go Back](../../week/)_**
+**_[<-- Go Back](../../week6/)_**

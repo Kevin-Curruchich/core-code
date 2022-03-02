@@ -14,5 +14,6 @@
 - [Week 3️⃣ - JavaScript](challenges/week3)
 - [Week 4️⃣ - npm, npx & Typescript](challenges/week4)
 - [Week 5️⃣ - Typescript](challenges/week5)
-<!---- [Week 6️⃣ - Challenges](challenges/week6)
-- [Week 7️⃣ - Challenges](challenges/week7) -->
+- [Week 6️⃣ - Challenges](challenges/week6)
+- [Week 7️⃣ - Challenges](challenges/week7)
+- [Week 8️⃣ - Challenges](challenges/week8)
