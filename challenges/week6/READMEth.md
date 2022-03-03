@@ -32,4 +32,4 @@ Cuando creamos clases abstractas podemos iniciarliza variables o asignarle un co
 <br>
 <hr>
 
-**_[<-- Go Back](../../week6/)_**
+**_[<-- Go Back](../week6/)_**

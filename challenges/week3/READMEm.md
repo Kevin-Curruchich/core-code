@@ -47,16 +47,15 @@ function likes(names) {
 **Solution :**
 
 ```javascript
-var countBits = function(n) {
-  let counter = 0ñ
+var countBits = function (n) {
+  let counter = 0;
 
-  Array.from(n.toString(2)).forEach(function(bit){
-    if(bit == 1) counter++;
-  })
+  Array.from(n.toString(2)).forEach(function (bit) {
+    if (bit == 1) counter++;
+  });
 
-    return counter
+  return counter;
 };
-
 ```
 
 <hr>

@@ -13,7 +13,7 @@ function multiply(a, b) {
 <hr>
 <br>
 
-2. You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
+**2. You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.**
 
 **Solution:**
 
