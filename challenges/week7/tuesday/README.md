@@ -82,4 +82,4 @@ export function parse(data: string): number[] {
 <br>
 <hr>
 
-**_[<-- Go Back](./../week7/)_**
+**_[<-- Go Back](../../week7/)_**
