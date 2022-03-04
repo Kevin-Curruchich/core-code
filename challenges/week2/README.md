@@ -6,4 +6,4 @@
 - [Thursday](./READMEth.md)
 <hr>
 
-**_[<-- Go Back](./../../)_**
+**_[<-- Go Back](./../../README.md)_**
